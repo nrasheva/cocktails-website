@@ -36,7 +36,7 @@ export const Cocktails = () => {
       <div className='flex xl:px-60 px-16 pt-8 text-blueberry font-semibold'>
         <p>{cocktails.length} COCKTAILS FOUND</p>
       </div>
-      <div className='flex flex-wrap justify-center gap-4 xl:px-36 py-12'>
+      <div className='flex flex-wrap justify-center gap-4 xl:px-36 py-12 min-h-[40rem] w-full'>
         {cocktails.map((cocktail) => (
           <Cocktail
             key={cocktail._id}
