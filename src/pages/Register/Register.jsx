@@ -44,10 +44,11 @@ export const Register = () => {
   return (
     <>
       <Intro text='Register' />
-      <div className='bg-register bg-center bg-cover flex flex-1 justify-center lg:py-20'>
+      <div className='bg-register bg-center bg-cover flex flex-1 items-center justify-center lg:py-20 min-h-[50rem] w-full'>
         <form
           onSubmit={(e) => e.preventDefault()}
-          className='bg-lightOrangada rounded flex flex-col items-center gap-12 md:w-1/3 w-full md:my-8 px-8 md:py-12 py-40'>
+          className='bg-lightOrangada rounded flex flex-col items-center justify-center gap-8 
+             w-[30rem] h-[20rem] px-8 py-12'>
           <div className='xl:w-4/5 w-full'>
             <div className='flex flex-col gap-4'>
               <Input
